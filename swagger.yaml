@@ -10,12 +10,14 @@ paths:
     get:
       tags:
       - sample-rest-controller
+      summary: サンプルレスポンス返却
+      description: サンプルレスポンスを返却します
       operationId: getResponse
       responses:
         "200":
-          description: OK
+          description: 正常
           content:
-            '*/*':
+            application/json:
               schema:
                 $ref: '#/components/schemas/SampleResponse'
 components:
