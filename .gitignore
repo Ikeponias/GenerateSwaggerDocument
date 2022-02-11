@@ -33,6 +33,6 @@ build/
 .vscode/
 
 ### Swagger ###
-swagger-codegen-cli-jar
+swagger-codegen-cli.jar
 generated/
 swagger-yaml
